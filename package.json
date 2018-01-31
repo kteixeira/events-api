@@ -1,0 +1,28 @@
+{
+  "name": "events-api",
+  "version": "1.0.0",
+  "description": "API to manage events",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon",
+    "lint": "eslint"
+  },
+  "keywords": [],
+  "repository": "https://github.com/kteixeira/events-api",
+  "author": "Kaio Teixeira",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "dotenv": "^5.0.0",
+    "express": "^4.16.2",
+    "mongoose": "^4.13.10",
+    "node-restful": "^0.2.6",
+    "request": "^2.83.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.16.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "nodemon": "^1.14.11"
+  }
+}
