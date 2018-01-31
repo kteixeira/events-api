@@ -1,4 +1,4 @@
-const Event = require('./event');
+const Event = require('./events');
 
 Event.methods(['get', 'post', 'put', 'delete']);
 Event.updateOptions({ new: true, runValidators: true });
