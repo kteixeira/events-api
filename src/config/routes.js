@@ -1,5 +1,5 @@
 const express = require('express');
-const Event = require('../models/event/eventsService');
+const Event = require('../services/eventsService');
 
 module.exports = (server) => {
   const api = express.Router();
